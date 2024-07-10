@@ -8,6 +8,8 @@
 </div>
 
 
+[Website](https://supamodel.ai)
+
 Supamodel is a dead simple Python package that allows users to monitor their machine learning experiments from their mobile phones. It provides functionalities to log metrics, monitor GPU usage, and manage experiments.
 
 To get started, download the mobile app from App Store, currently only ios is supported.
