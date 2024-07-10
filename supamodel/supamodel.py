@@ -75,29 +75,4 @@ class Supamodel:
         except Exception as e:
             print(f"An error occurred while running nvidia-smi, make sure you have a machine with a GPU, or set log_compute=False in the init method")
             return None
-    
-
-
-# if __name__ == "__main__":
-
-#     import random
-#     config = {
-#         "batch_size": 32,
-#         "epochs": random.randint(10, 100),
-#         "trainer": {
-#             "optimizer": "SGD",
-#             "loss": "CrossEntropyLoss",
-#             "learning_rate": random.uniform(0.001, 0.1)
-#         },
-#     }
-
-#     supamodel = Supamodel()
-#     supamodel.login(api_key="28d1ab2b-f8d1-4821-af31-9e6495eb5252")
-#     supamodel.init(experiment_name="Alert test 6", config=config, main_metric="val_accuracy")
-
-#     for i in range(1, 100):
-#         supamodel.log("val_accuracy", random.uniform(0.0, 1.0))
-#         supamodel.log("train_accuracy", i / 100.0)
-#         print(f"Logged metrics: {i}, {100-i}")
-#         time.sleep(2.0)
 
