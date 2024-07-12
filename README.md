@@ -2,7 +2,7 @@
 
 <div style="margin-bottom: 100px;">
 <p align="center">
-  <img src="./media/logo_1024_black.jpg" alt="Monitor ML Experiments" width="20%" style="border-radius: 15px;">
+  <img src="https://github.com/sarangzambare/supamodel-py/blob/main/media/logo_1024_black.jpg?raw=true" alt="Monitor ML Experiments" width="20%" style="border-radius: 15px;">
 </p>
 <p align="center"><strong style="font-size: larger;"><em>Monitor ML experiments on your phone</em></strong></p>
 </div>
@@ -21,7 +21,7 @@ To get started, download the mobile app from App Store, currently only ios is su
 
 Login using your preferred login method, and go to settings to copy the api key.
 
-<img src="./media/image1.jpeg" alt="Supamodel" width="20%">
+<img src="https://github.com/sarangzambare/supamodel-py/blob/main/media/image1.jpeg?raw=true" alt="Supamodel" width="20%">
 
 
 ## Installation
@@ -59,18 +59,19 @@ for i in range(1, 100):
     # dummy values
     supamodel.log("train_accuracy", i)
     supamodel.log("val_accuracy", 100 - i)
+    time.sleep(0.5)
 
 
 ```
 
 Your experiments now will show up in the app, like this:
 
-<img src="./media/image4.jpg" alt="Supamodel" width="20%">
+<img src="https://github.com/sarangzambare/supamodel-py/blob/main/media/image4.jpg?raw=true" alt="Supamodel" width="20%">
 
 
 You can also set alerts on the metrics to get a notification if it falls below or exceeds a certain amount. Do this by clicking the bell-icon next to the metrics.
 
-<img src="./media/image2.jpeg" alt="Supamodel" width="20%">
+<img src="https://github.com/sarangzambare/supamodel-py/blob/main/media/image2.jpeg?raw=true" alt="Supamodel" width="20%">
 
 
 ## API Reference
